@@ -1,26 +1,26 @@
 body {
   font-family: Arial;
   margin: 20px;
-  background: #f8f9fa; /* Very light gray background */
+  background: #f8f9fa;
 }
 
 #form {
   background: white;
   padding: 15px;
   border-radius: 4px;
-  box-shadow: 0 1px 3px rgba(0,0,0,0.05); /* Subtle shadow */
+  box-shadow: 0 1px 3px rgba(0,0,0,0.05);
 }
 
 input, select {
   margin: 5px 0;
   padding: 8px;
-  border: 1px solid #dee2e6; /* Soft gray border */
+  border: 1px solid #dee2e6;
   border-radius: 4px;
-  background: #f8f9fa; /* Light background for inputs */
+  background: #f8f9fa; 
 }
 
 button {
-  background: #495057; /* Dark gray */
+  background: #495057; 
   color: white;
   border: none;
   padding: 8px 15px;
@@ -29,15 +29,15 @@ button {
 }
 
 button:hover {
-  background: #343a40; /* Slightly darker on hover */
+  background: #343a40; 
 }
 
 button[type="submit"] {
-  background: #2b8a3e; /* Forest green */
+  background: #2b8a3e; 
 }
 
 button[type="submit"]:hover {
-  background: #2f9e44; /* Brighter green */
+  background: #2f9e44; 
 }
 
 ul {
@@ -53,16 +53,15 @@ li {
   box-shadow: 0 1px 3px rgba(0,0,0,0.05);
 }
 
-/* Your original category colors - enhanced for better contrast */
-.friend { color: #1971c2; } /* Deeper blue */
-.family { color: #c92a2a; } /* Richer red */
-.colleague { color: #e67700; } /* Warmer orange */
+.friend { color: #1971c2; } 
+.family { color: #c92a2a; } 
+.colleague { color: #e67700; } 
 
 .warning {
-  color: #c92a2a; /* Matching red */
+  color: #c92a2a;
   font-weight: bold;
 }
 
 small {
-  color: #868e96; /* Soft gray for timestamps */
+  color: #868e96; 
 }

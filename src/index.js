@@ -5,7 +5,6 @@
 let guests = []; // Initial empty guest list
 const MAX_GUESTS = 10; // Maximum number of guests allowed
 
-
 function showGuests() { // Display the guest list
   const list = document.getElementById('list'); 
   const countSpan = document.getElementById('count'); 
@@ -15,12 +14,12 @@ function showGuests() { // Display the guest list
   guests.forEach(guest => { // Create a list item for each guest
     const li = document.createElement('li');
     li.innerHTML = `                      
-      <span class="${guest.category}">${guest.name} (${guest.category})</span> // Guest name and category
+      <span class="${guest.category}">${guest.name} (${guest.category})</span>
       <button onclick="toggleAttending(${guest.id})">
         ${guest.attending ? 'Attending' : 'Not Attending'}
       </button>
-      <button onclick="removeGuest(${guest.id})">Delete</button> // Button to toggle attendance and delete guest
-      <small>${formatTime(guest.time)}</small>    // Display the time the guest was added
+      <button onclick="removeGuest(${guest.id})">Delete</button>
+      <small>${formatTime(guest.time)}</small>
     `;
     list.appendChild(li);
   });
@@ -75,4 +74,4 @@ document.addEventListener('DOMContentLoaded', () => {  // Wait for the DOM to lo
   });
   
   showGuests(); // Initial display of guests
-}); 
+});
