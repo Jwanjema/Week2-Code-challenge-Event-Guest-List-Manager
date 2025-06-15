@@ -16,7 +16,7 @@ This is a simple guest list manager that helps you keep track of who's coming to
 2. Pick what type of guest they are
 3. Click "Add Guest"
 4. Click the buttons to:
-   - Change if they're coming (green = coming, red = not coming)
+   - Change if they're attending or not attending.
    - Delete someone
 ## Author
 Joe Wanjema
