@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Guest List</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Guest List</h1>
+  <p>Current guests: <span id="count">(0/10)</span></p>
+  
+  <form id="form">
+    <input type="text" id="name" placeholder="Guest name" required>
+    <select id="category">
+      <option value="friend">Friend</option>
+      <option value="family">Family</option>
+      <option value="colleague">Colleague</option>
+    </select>
+    <button type="submit">Add Guest</button>
+  </form>
+  
+  <ul id="list"></ul>
+
+  <script src="index.js"></script>
+</body>
+</html>
